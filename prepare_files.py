@@ -18,9 +18,9 @@ for i in range(len(species)):
         fish_type.append(species[i][-3:])
 #         file_path.append(species[i]+os.listdir(species[j])
 
-print(file_paths[1:10])
+# print(file_paths[1:10])
 
-file_array=np.asarray(file_path)
+file_array=np.asarray(file_paths)
 fish_array=np.asarray(fish_type)
 
 # combine into array for training
@@ -28,4 +28,4 @@ train_array=np.c_[file_array,fish_array]
 
 # just get the files:
 
-train_array[:,0]
+# train_array[:,0]
